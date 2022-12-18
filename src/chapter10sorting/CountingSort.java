@@ -1,3 +1,4 @@
+package chapter10sorting;
 /*Copyright (c) Dec 21, 2014 CareerMonk Publications and others.
  * E-Mail           	: info@careermonk.com 
  * Creation Date    	: 2015-01-10 06:15:46 
@@ -13,7 +14,7 @@
  import java.util.*;
 import java.lang.*;
 import java.io.*;
-public class CountingSorter{
+public class CountingSort{
     public static int[] CountingSort (int[] A, int K) {
         int i, j, n = A.length; 
         int[] C = new int[K+1];
